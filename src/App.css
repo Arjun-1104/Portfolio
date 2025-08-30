@@ -1,0 +1,80 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* -------------My Image ---------------------- */
+.myImage{
+  border-radius: 62% 38% 38% 62% / 33% 27% 73% 67% ;
+}
+
+.myImageDiv {
+  perspective: 600px;
+  perspective-origin: center;
+}
+
+/* @keyframes bounceCustom {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(150%);
+  }
+  
+}
+.custom_bounce {
+  animation: bounceCustom 1s infinite;
+} */
+
+@keyframes bounceCustom {
+  0%, 50% {
+    transform: translateY(-20px); /* 👈 bounce height */
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  0% {
+    transform: translateY(0%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.custom_bounce {
+  animation: bounceCustom 1s infinite;
+}
