@@ -1,18 +1,36 @@
-// import React from 'react'
-// import assets from '../assets/assets'
-// const Sidebar = () => {
-//   return (
-//     <div className='fixed top-0 h-screen right-10'>
-//     <div className='border border-white relative top-0 h-screen  right-10'>
-//         <div className='rounded-full p-0.5 bg-[#c5ba22] h-[20%]'></div>
-//         <div className='absolute'>
-//         <img src={assets['githubIcon']} alt="image" className='w-10 h-10 border p-1.5 rounded-full bg-blue-500'/>
+import React from "react";
+import assets from "../assets/assets";
+const Sidebar = () => {
+  return (
+    <div className="w-fit flex flex-col gap-6 justify-center items-center fixed right-4 top-1/2 -translate-y-1/2">
+      <div className="h-[150px] w-1 bg-[#c5ba22] rounded"></div>
+      <div className="flex flex-col gap-3">
+        <a
+          href="https://www.linkedin.com/in/arjun-rathore-ar/"
+          target="_blank"
+          className="aboutSocialIconsDiv bg-[#c5ba22] rounded-full inline-block p-2 w-10"
+        >
+          <img
+            className="aboutSocialIcons w-8"
+            src={assets.linkedinIcon}
+            alt="linkedin"
+          />
+        </a>
+        <a
+          href="https://github.com/Arjun-1104"
+          target="_blank"
+          className="aboutSocialIconsDiv bg-[#c5ba22] rounded-full inline-block p-2 w-10"
+        >
+          <img
+            className="aboutSocialIcons w-8"
+            src={assets.githubIcon}
+            alt="github"
+          />
+        </a>
+      </div>
+      <div className="h-[150px] w-1 bg-[#c5ba22] rounded"></div>
+    </div>
+  );
+};
 
-//         </div>
-//         <div className='rounded-full p-0.5 bg-[#c5ba22] h-[20%]'></div>
-//     </div>
-//     </div>
-//   )
-// }
-
-// export default Sidebar
+export default Sidebar;

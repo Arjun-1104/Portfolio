@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
-// import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
       <Project/>
       <Education/>
       <Contact/>
-      {/* <Sidebar></Sidebar> */}
+      <Sidebar/>
     </div>
   );
 };

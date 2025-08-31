@@ -13,8 +13,8 @@ export const aboutData = {
   preName: "Hello, my name is",
   name: "Arjun\nRathore",
   occupation: "Frontend\nDeveloper",
-  experience: "Experience - Mito Infotech",
-  workYear: "May- 2024 to Present",
+  // experience: "Experience - Company Name",
+  // workYear: "May- 2024 to Present",
   description:
     "Skilled react.js developer with 1.5 years Of hands-on experience. Expertise in building responsive and scalable web applications. Strong frontend development and UI/UX design.",
   shortLine: "Open to work and collaborations.",
@@ -35,59 +35,101 @@ export const skillsData = [
 export const projectsData = [
   {
     id: 1,
-    image: assets.weatherImg,
-    label: "1. Weather App",
-    desc: "fBuilt a responsive weather application using React.js and OpenWeather API to display real-time weather conditions with intuitive UI, search functionality, and API error handling.",
-    languageUse: ["HTML", "CSS", "React Js", "Weather API"],
+    image: assets.fruitBasketImg,
+    label: "1. FruitBasket",
+    desc: "FruitBasket is a fully responsive fruit store design created using HTML, CSS, JS and Bootstrap. It includes a modern homepage layout, product sections, and a clean UI optimized for all screen sizes.",
+    languageUse: ["HTML", "CSS", "JS", "BootStrap"],
+    path: "https://arjun-1104.github.io/Fruit-site/",
+    gitPath: "https://github.com/Arjun-1104/Fruit-site",
   },
   {
     id: 2,
-    image: assets.noteImg,
-    label: "1. Weather App",
-    desc: "fBuilt a responsive weather application using React.js and OpenWeather API to display real-time weather conditions with intuitive UI, search functionality, and API error handling.",
-    languageUse: ["HTML", "CSS", "React Js", "Weather API"],
+    image: assets.freshBitesImg,
+    label: "3. FreshBites",
+    desc: "FoodBites is a responsive food ordering platform built with React.js and Tailwind CSS, featuring a clean UI to browse items, explore categories, and view product details. It highlights my skills in reusable components, state management, and mobile-first design.",
+    languageUse: ["HTML", "CSS", "React Js", "Tailwind CSS", "Redux"],
+    path: "",
+    gitPath: "https://github.com/Arjun-1104/FreshBites",
   },
   {
     id: 3,
-    image: assets.votingImg,
-    label: "1. Weather App",
-    desc: "fBuilt a responsive weather application using React.js and OpenWeather API to display real-time weather conditions with intuitive UI, search functionality, and API error handling.",
-    languageUse: ["HTML", "CSS", "React Js", "Weather API"],
+    image: assets.freshBitesImg,
+    label: "3. Plasto Green",
+    desc: "Plasto Green is a responsive e-commerce platform developed with React.js and Zustand. It allows users to explore plywood, wood, and door products with a clean UI, dynamic product listings, and smooth state management.",
+    languageUse: ["HTML", "CSS", "React Js", "Tailwind CSS", "Zustend"],
+    path: "",
+    gitPath: "https://github.com/Arjun-1104/Plasto-Green",
   },
   {
     id: 4,
     image: assets.portfolioImg,
-    label: "1. Weather App",
-    desc: "fBuilt a responsive weather application using React.js and OpenWeather API to display real-time weather conditions with intuitive UI, search functionality, and API error handling.",
-    languageUse: ["HTML", "CSS", "React Js", "Weather API"],
+    label: "4 PortFolio",
+    desc: "I have developed a responsive and dynamic portfolio website using React.js. It showcases my projects, skills, and experience with modern UI components, smooth navigation, and optimized performance.",
+    languageUse: ["HTML", "CSS", "React Js", "Tailwind CSS"],
+    path: "",
+    gitPath: "https://github.com/Arjun-1104/Portfolio",
   },
 ];
 
 export const educationData = [
   {
     id: 1,
-    course : 'Bachelor of Computer Application',
-    year: '2021-2024',
-    percentage: '8.32',
-    institute: 'Jiwaji University, Gwalior',
-    image: assets.bcaImg
+    course: "Bachelor of Computer Application",
+    year: "2021-2024",
+    percentage: "8.32",
+    institute: "Jiwaji University, Gwalior",
+    image: assets.bcaImg,
   },
   {
     id: 2,
-    course : '12th - Science',
-    year: '2020-2021',
-    percentage: '82%',
-    institute: 'Govt. Gorkhi H.S. School, Gwalior',
-    image: assets.twelvethImg
+    course: "12th - Science",
+    year: "2020-2021",
+    percentage: "82%",
+    institute: "Govt. Gorkhi H.S. School, Gwalior",
+    image: assets.twelvethImg,
   },
   {
     id: 3,
-    course : '10th - Board',
-    year: '2018-2019',
-    percentage: '79%',
-    institute: 'Saraswati Vidhya Mandir, Gwalior',
-    image: assets.tenthImg
-  }
-]
+    course: "10th - Board",
+    year: "2018-2019",
+    percentage: "79%",
+    institute: "Saraswati Vidhya Mandir, Gwalior",
+    image: assets.tenthImg,
+  },
+];
 
+export const contactData = {
+  letsContact: {
+    heading: "Let's Connect",
+    subHeading:
+      "Thank you for visiting my personal portfolio website. Connect with me over socials.",
+    items: [
+      {
+        icon: assets.linkedinIcon,
+        path: "https://www.linkedin.com/in/arjun-rathore-ar/",
+      },
+      { icon: assets.githubIcon, path: "https://github.com/Arjun-1104" },
+      { icon: assets.mailIcon, path: "mailto:developerarjun01@gmail.com" },
+    ],
+  },
 
+  contact: {
+    heading: "Contact Info",
+    items: [
+      {
+        icon: assets.callIcon,
+        label: "+91 9479440283",
+      },
+      {
+        icon: assets.mailIcon,
+        label: "developerarjun@gmail.com",
+      },
+      {
+        icon: assets.locationIcon,
+        label: "Gwalior, MP, India",
+      },
+    ],
+  },
+  designBy: "Designed by",
+  name: "Arjun",
+};

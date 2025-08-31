@@ -3,11 +3,10 @@ import assets from '../assets/assets'
 import { skillsData } from '../data/data'
 
 const Skills = () => {
-    const key = "laptop"
   return (
     <div id="skills" className='mt-20 scroll-mt-20 flex flex-col items-center'>
         <div className='flex items-center justify-center gap-3 mb-15'>
-            <img src={assets[key]} className='w-8 h-8' alt={key} />
+            <img src={assets.laptop} className='w-8 h-8' alt='image' />
             <p className='text-white/80 text-3xl tracking-wider'>Skills</p>
         </div>
 
