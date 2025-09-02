@@ -48,17 +48,17 @@ export const projectsData = [
     label: "3. FreshBites",
     desc: "FoodBites is a responsive food ordering platform built with React.js and Tailwind CSS, featuring a clean UI to browse items, explore categories, and view product details. It highlights my skills in reusable components, state management, and mobile-first design.",
     languageUse: ["HTML", "CSS", "React Js", "Tailwind CSS", "Redux"],
-    path: "",
-    gitPath: "https://github.com/Arjun-1104/FreshBites",
+    path: "https://fresh-bites-frontend.vercel.app/",
+    gitPath: "https://github.com/Arjun-1104/FreshBites_Frontend",
   },
   {
     id: 3,
-    image: assets.freshBitesImg,
+    image: assets.plastoGreenImg,
     label: "3. Plasto Green",
     desc: "Plasto Green is a responsive e-commerce platform developed with React.js and Zustand. It allows users to explore plywood, wood, and door products with a clean UI, dynamic product listings, and smooth state management.",
     languageUse: ["HTML", "CSS", "React Js", "Tailwind CSS", "Zustend"],
-    path: "",
-    gitPath: "https://github.com/Arjun-1104/Plasto-Green",
+    path: "https://plasto-green-frontend.vercel.app/",
+    gitPath: "https://github.com/Arjun-1104/Plasto-Green-Frontend",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ export const projectsData = [
     label: "4 PortFolio",
     desc: "I have developed a responsive and dynamic portfolio website using React.js. It showcases my projects, skills, and experience with modern UI components, smooth navigation, and optimized performance.",
     languageUse: ["HTML", "CSS", "React Js", "Tailwind CSS"],
-    path: "",
+    path: "https://portfolio-2vxtne2vr-arjuns-projects-1be61253.vercel.app/",
     gitPath: "https://github.com/Arjun-1104/Portfolio",
   },
 ];
@@ -122,7 +122,7 @@ export const contactData = {
       },
       {
         icon: assets.mailIcon,
-        label: "developerarjun@gmail.com",
+        label: "developerarjun01@gmail.com",
       },
       {
         icon: assets.locationIcon,
